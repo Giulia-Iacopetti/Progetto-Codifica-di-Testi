@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE TEI SYSTEM ".dtd"> -->
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina133">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>                
+                <title>Ferro di cavallo Fortuna</title>			
+			</titleStmt>	
+			
+			
+            <publicationStmt>
+               <publisher>Unipi</publisher> 
+                <pubPlace>Pisa</pubPlace>
+                <availability status="restricted">
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date> 
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!--NOTE: mettere qui tutto ciò che non rienta nella codifica-->
+            <notesStmt>
+				<note n="1"> Nell' illustrazione è presente la firma incomprensibile dell'autore. Inoltre, sempre nel fronte, vi è il titolo della cartolina:"Ferro di cavallo Fortuna".</note>
+				<note n="2"> Sul retro della cartolina è presente un numero, 133, che la identifica nell'archivio. Sempre nel retro vi sono due stampe "Proprietà artistica riservata" e "Alfieri e Lacroix, ING. IMP. - Milano. </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+					<!--TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+					     non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+						 registrandolo entro parentesi quadre [Venere al bagno] ms indicando dentro la codifica come qui sotto esemplificato-->
+						 
+                   <title type="custom" resp="#ES"> Ferro di cavallo Fortuna </title> 
+                    <author ref="Gi">Giovanni</author>
+                  	<date>1917</date> 
+                </bibl>				
+                   
+                <msDesc>
+				    <msIdentifier>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_133_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- INFO CONTENUTO CARTOLINA -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+					
+				   <!--DESCRIZIONE FISICA CARTOLINA-->
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                   
+								    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Regno d'Italia</stamp>
+								</support>	
+								<condition>Buono, non occorrono interventi di restauro</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>	
+                
+                <!-- LISTA PERSONE-->
+                <listPerson>
+                    <person xml:id="Gi"> 
+                        <persName>
+                            <forename>Giovanni</forename>
+                         </persName>
+                        <sex>M</sex>
+						<occupation>
+							<note>Cognome e occupazione non sono note</note>
+						</occupation>
+                    </person>     
+                 
+                 <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+						<note>Occupazione non nota</note>
+                    </person>
+                </listPerson>
+                
+				<!--LIST PLACE-->
+                <listPlace>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+					
+					  <place xml:id="RA">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RA</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+		
+		<!--CORRISPONDDENZA CHI INVIA E CHI RICEVE-->
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#Gi">Giovanni</persName>
+                    <placeName ref="#MO">Modena</placeName>
+					<date type="writing" when="1917-08-01">1/8-17</date>
+                </correspAction>
+				
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#RA">Ravenna</placeName>
+                </correspAction>
+				
+				<correspContext>  
+					<p>Saluto affettuoso</p>   
+                </correspContext>
+            </correspDesc>
+			
+			<textClass>
+				<keywords>
+				  <term>Cartolina</term> <!--soggettario-->
+				  <term>Cartolina artistica</term> <!--tipologia-->
+				  <term>Ferro di cavallo Fortuna</term> <!--descrizione-->
+				</keywords>
+			</textClass>
+	
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+	
+	<!-- TEI ZOONER-->
+	<facsimile xml:id="c133_facs">
+		<surfaceGrp>
+			<surface xml:id="c133_fronte">
+				<graphic url="7694-133F.jpg" width="1065px" height="1653px" xml:id="c133_f"/>	<!--intera immagine del fronte cartolina-->
+			</surface>	
+				
+			<surface xml:id="c133_retro">
+				<graphic url="7694-133R.jpg" width="1657px" height="1068px" xml:id="c133_r"/>
+				<zone ulx="922" uly="95" lrx="1043" lry="165" xml:id="c133_num_ctlg"/> 			<!--numero 133 in alto a sinistra catalagotore-->				
+				<zone ulx="669" uly="76" lrx="747" lry="895" xml:id="c133_coordinate1"/>		<!--luogo e data mittente-->
+				<zone ulx="106" uly="44" lrx="619" lry="1033" xml:id="c133_messaggio"/>			<!--messaggio-->
+				<zone ulx="129" uly="921" lrx="517" lry="966" xml:id="c133_stampa_basso"/> 			<!--Proprietà artistica riservata-->
+				<zone ulx="58" uly="341" lrx="85" lry="712" xml:id="c133_stampa_laterale"/> 			<!--alfieri a lacroix...-->
+				<zone ulx="717" uly="811" lrx="838" lry="1004" xml:id="c133_stampa_logo"/>			<!--logo in basso + numero-->
+				<zone ulx="1167" uly="46" lrx="1594" lry="391" xml:id="c133_affrancatura"/>		<!--timbro e francobollo-->
+				<zone ulx="817" uly="368" lrx="1611" lry="1000" xml:id="c133_coordinate2"/>		<!--nome e indirizzo mittente-->
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	
+	
+	
+	<!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="c133">
+	    <body> 
+		
+			<!-- TRASCRIZIONE FRONTE -->
+		    <div type="fronte" xml:id="c133_fronte">
+			    <figure>
+                  
+                    <figDesc>Donna che guarda un ferro di cavallo  a terra, in lontanaza vi sono un cavallo e un cavaliere</figDesc>
+                    <head>Ferro di cavallo Fortuna</head>
+					<note n="1" place="right"> Nell' illustrazione è presente la firma dell'autore illeggibile.</note>
+					<note n="2" place="bottom"> Nella parte inferiore è presente la scritta "Ferro di cavallo Fortuna"</note>
+                </figure>
+            </div>
+
+			<!-- TRASCRIZIONE RETRO -->
+			<div type="retro" xml:id="c133_r">
+				<div type="catalogazione" xml:id="c133_num_ctlg"
+				
+					rend="top-right">
+					<p>
+                        <num type="cardinal">
+                            <idno> 133 </idno>
+                        </num>
+                    </p>
+				</div>
+				
+				<!--MESSAGGIO GIOVANNI-->
+				<div type="messaggio" xml:id="c133_messaggio">
+					<opener>
+						<dateline>
+							<placeName ref="#MO">Modena</placeName>
+							<date when="1917-08-1">li 1/8-1917.</date>
+						</dateline>
+					</opener>
+					<p>
+						<lb/>Un affettuoso pensiero e la 
+						<lb/>voce del mio cuore.
+					</p>
+					
+					<closer>
+						<signed>
+							<persName ref="#Gi">
+								<forename type="diminutivo"> Giovannino </forename>
+							</persName>
+						</signed>
+					</closer>
+				</div>
+				
+		
+				<!--LOGO con NUMERO SOTTO + SCRITTE-->
+				<div type="stampalogo" xml:id="c133_stampa_logo">
+				
+					<ab rend="bottom-centre">
+						<figure> 
+							<figDesc>Lettere D S N nel logo </figDesc> 
+							<head>Logo</head>
+						</figure>
+						<num type="cardinal">6000-2</num>
+					</ab>	
+				</div>	
+				
+				<div type="stampascritta1" xml:id="c133_stampa_basso">				
+					<ab rend="bottom-left">
+						<note>Proprietà artistica riservata</note>
+					</ab>
+				</div>
+				
+				<div type="stampascritta2" xml:id="c133_stampa_laterale">
+					<ab rend="vertical-left">
+						<note>Alfieri e Lacroix, ING. IMP. - Milano</note>
+					</ab>
+				</div>
+
+				</div>
+			</div>			
+				
+			<!--PARTE DEDICATA AI FRANCOBOLLO E TIMBRO-->	
+			<div type="affrancatura" xml:id="c133_affrancatura">
+				<ab>
+					<stamp type="francobollo">
+						<note>francobollo da 5 centesimi del Regno d'Italia</note>
+					</stamp>
+					
+					<stamp type="timbro"> 
+						<mentioned>
+						 <unclear reason="illegible"></unclear> 
+						</mentioned>
+					</stamp>   
+				</ab>	
+			</div>	
+			
+				
+				
+
+					
+					<div type="indirizzo" xml:id="c133_coordinate2">
+						<ab>
+							<address>
+								<addrLine>
+									<choice>
+										<abbr>Gent</abbr>
+										<expan>Gentile</expan>
+									</choice> 
+									<choice>
+										<abbr>Sig na</abbr>
+										<expan>Signorina</expan>
+									</choice> 
+								</addrLine>
+								<addrLine><persName ref="#OT">Oliva Turtura</persName></addrLine>
+								<addrLine>Via Girolamo Rossi 58</addrLine>
+								<addrLine><placeName ref="#RA">Ravenna</placeName></addrLine>
+							</address>
+						</ab>
+				</div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
