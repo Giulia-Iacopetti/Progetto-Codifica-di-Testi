@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE TEI SYSTEM ".dtd"> -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina133">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>L'attente</title>
+				<respStmt>
+					<resp>Trascrizione di</resp>
+					<name xml:id="CB">Carla Barresi</name>
+					<name xml:id="GI">Giulia Iacopetti</name>
+				</respStmt>
+				<respStmt>
+					<resp>Ente di appartenenza</resp>
+					<name type="comune" xml:id="SP">Comune della Spezia</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Studenti di Codifica di testi, corso triennale Informatica Umanistica, Università di Pisa</edition>
+					<date>2020</date>
+				<respStmt>
+					<resp>Codifica di</resp>
+					<name ref="#CB" />
+					<name ref="#GI" /> 
+				</respStmt>
+				<respStmt>
+					<resp>Compilatore</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="ER">E. Ratti</name>
+                </respStmt>
+			</editionStmt>
+			<publicationStmt>
+               <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+			<notesStmt>
+				<note>Sul retro troviamo il nome dell'artista (Clovis Didier) e il titolo dell'opera in fronte, e "1460 Salon del Paris"</note>
+			</notesStmt>
+			<sourceDesc>
+				<bibl>
+					<title>L'attente</title>
+					<author>
+						<name xml:id="CD">Clovis Didier</name>
+					</author>
+					<date>1918</date>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country>Italia</country>
+						<settlement>La Spezia (SP)</settlement>
+						<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+						<idno>7694_212_001/002</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Cartolina artistica</summary>
+						<!-- è corretto otherLangs??-->
+						<textLang mainLang="it" otherLangs="fr" "en" "pl" "ru">Testo scritto in Italiano con stampe in francese, inglese, polacco e russo</textLang> 
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<objectType>Cartolina</objectType>
+									<material>Carta</material>
+									<dimensions unit="cm">
+										<height>9</height>
+										<width>14</width>
+									</dimensions>
+									<stamp>Francobollo 5 centesimi - Regno d'Italia</stamp>
+								</support>
+								<condition>Buono</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<listPerson>
+					<person xml:id="Gi">
+						<persName>
+							<forename>Giovanni</forename>
+						</persName>
+						<sex>M</sex>
+						<occupation>
+						<note>Cognome e occupazione non sono note</note>
+						</occupation>
+					</person>
+					<person xml:id="OT">
+						<persName>
+							<forename>Oliva</forename>
+							<surname>Turtura</surname>
+						</persName>
+						<sex>F</sex>
+					</person>
+					<person ref="#CD">
+						<persName>
+							<forename>Clovis</forename>
+							<surname>Didier</surname>
+						</persName>
+						<sex>M</sex>
+						<note>Illustratore</note>
+					</person>          
+				</listPerson>
+				<listPlace>
+					<place xml:id="SF">
+						<placeName>San Felice</placeName>
+						<settlement type="località">città</settlement>
+						<district type="comune">San Felice sul Panaro</district>
+						<district type="provincia">MO</district>
+						<country key="N">IT</country>
+					</place>
+					<place xml:id="RA">
+						<placeName>Ravenna</placeName>
+						<settlement type="località">città</settlement>
+						<district type="comune">Ravenna</district>
+						<district type="provincia">RA</district>
+						<country key="N">IT</country>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#Gi" />
+					<placeName ref="#SF" />
+					<date type="postage" when="1918-05-06">6.5.18</date>
+					<date type="writing" when="1918-05-05">5/5-1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#OT" />
+					<placeName ref="#RA" />
+				</correspAction>
+				<correspContext>
+				  <p>Saluto affettuoso</p>
+				</correspContext>
+			</correspDesc>
+			<textClass>
+				<keywords>
+					<term>Cartolina</term>
+					<term>Cartolina artistica</term>
+					<term>L'attente</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it-IT">italiano</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+
+	<facsimile xml:id="c212_facs">
+		<surfaceGrp>
+		
+			<surface xml:id="c212_fronte">
+			 <!--intera immagine del fronte cartolina-->
+				<graphic url="7694-212F.jpg" width="508.03125px" height="805.03125px" />
+			</surface>
+			
+			<surface xml:id="c212_retro">
+				<graphic url="7694-212R.jpg" width="805.03125px" height="511.03125px" xml:id="c133_r" />
+				
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<!--numero catalogatore-->
+				
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<!--affrancatura-->
+				
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<!--stampa in alto-->
+				
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<!--stampa laterale-->
+
+				<zone ulx="582" uly="141" lrx="688" lry="993" xml:id="c212_lb_01"/>
+				<!--stampa centrale-->
+				
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<!--stampa in basso-->
+				
+				<zone ulx="582" uly="141" lrx="688" lry="993" xml:id="c212_lb_01"/>
+				<!--luogo e data-->
+				
+				<zone ulx="582" uly="141" lrx="688" lry="993" xml:id="c212_lb_01"/>
+				<!--messaggio-->
+				
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<!--firma-->
+				
+			  
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	
+	<text type="cartolina" xml:id="c212">
+		<body>
+		
+			<div type="fronte">
+				<figure>
+					<graphic url="codifica2020/cartoline/7694-212F.jpg"/>
+					<figDesc>Una donna seduta su una sedia guarda fuori dalla finestra</figDesc>
+					<head>L'attente<head>
+				</figure>
+			</div>
+
+			<div type="retro">
+				<graphic url="codifica2020/cartoline/7694-212R.jpg"/>
+			
+				<div type="numerazione" rend="top-right">
+					<ab>
+						<num resp="catalogatore" facs="#">212</num>
+					</ab>
+
+					<div type="stampa">
+	                    <ab rend="top-left">
+						    <figure facs="#"> 
+						        <figDesc>Lettere S P A </figDesc>
+	                            <head>Logo</head>
+						    </figure>
+						</ab>
+						<ab rend="vertical">
+								<p facs="#">
+									<num type="cardinal">1460.</num>							
+									<persName ref="CD">Clovis Didier.</persName>
+									<title>L'attente. The waiting. Oczekiwanie. Oжидание</title>
+									<note>Presente altra scritta in russo difficile da interpretare</note>
+							    </p>
+						</ab>
+						<ab rend="center">
+							<s facs="#">Printed in Paris -L.Latina</s>
+							</ab>
+							
+						<ab rend="bottom-left">
+							<s facs="#">Salon de Paris</s>
+							<note>Presente altra scritta difficile da interpretare</note>
+							</ab>
+					</div>
+
+				</div>
+
+				<div type="affrancatura">
+					<ab> 
+						<stamp type="francobollo" facs="#"><note>Francobollo del Regno d'Italia da 5 centesimi</note> </stamp>
+						<stamp type="timbro" facs="#"> 
+							<date when="1918-05-06"><unclear reason="illegible">6.5.18</unclear></date> <!--mention??-->
+						</stamp>
+					</ab>
+				</div>
+
+				<div type="messaggio">
+					<opener ref=""> 
+						<dateline> 
+							<placeName ref="#SF">San Felice</placeName><date when="1918-05-05" facs="">5/5-1918</date> 
+                        </dateline> 
+                    </opener>
+				
+					<p facs="#">
+						<lb/>Ti giunga la voce d'un
+						<lb/>affetto che non può
+						<lb/>mai estinguersi
+					</p> 
+					
+					<closer facs="#">
+						<signed><persName ref="#Gi">tuo Giovannino</persName></signed>
+					</closer>
+					
+				</div>
+			  
+				<div type="indirizzo" facs="#">
+					<p>
+						<address>
+							<addrLine>
+								<choice>
+									<abbr>Gent</abbr>
+									<expan>Gentile</expan>
+								</choice> 
+								<choice>
+									<abbr>Sig na</abbr>
+									<expan>Signorina</expan>
+								</choice> 
+							</addrLine>
+							<addrLine><persName ref="#OT">Oliva Turtura</persName></addrLine>
+							<addrLine>Via Girolamo Rossi 58</addrLine>
+							<addrLine><placeName ref="#RA">Ravenna</placeName></addrLine>
+						</address>
+					</p>
+				</div>
+			</div>
+			
+		</body>
+	</text>
+</TEI>
