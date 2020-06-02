@@ -249,8 +249,7 @@
 				</div>
 
 				</div>
-			</div>			
-				
+		
 			<!--PARTE DEDICATA AI FRANCOBOLLO E TIMBRO-->	
 			<div type="affrancatura" xml:id="c133_affrancatura">
 				<ab>
@@ -270,28 +269,27 @@
 				
 
 					
-					<div type="indirizzo" xml:id="c133_coordinate2">
-						<ab>
-							<address>
-								<addrLine>
-									<choice>
-										<abbr>Gent</abbr>
-										<expan>Gentile</expan>
-									</choice> 
-									<choice>
-										<abbr>Sig na</abbr>
-										<expan>Signorina</expan>
-									</choice> 
-								</addrLine>
-								<addrLine><persName ref="#OT">Oliva Turtura</persName></addrLine>
-								<addrLine>Via Girolamo Rossi 58</addrLine>
-								<addrLine><placeName ref="#RA">Ravenna</placeName></addrLine>
-							</address>
-						</ab>
-				</div>
-            </div>
-        </body>
-    </text>
+			<div type="indirizzo" xml:id="c133_coordinate2">
+				<ab>
+					<address>
+						<addrLine>
+							<choice>
+								<abbr>Gent</abbr>
+								<expan>Gentile</expan>
+							</choice> 
+							<choice>
+								<abbr>Sig na</abbr>
+								<expan>Signorina</expan>
+							</choice> 
+						</addrLine>
+						<addrLine><persName ref="#OT">Oliva Turtura</persName></addrLine>
+						<addrLine>Via Girolamo Rossi 58</addrLine>
+						<addrLine><placeName ref="#RA">Ravenna</placeName></addrLine>
+					</address>
+				</ab>
+			</div>
+		</body>
+	</text>
 </TEI>
 
 
