@@ -172,31 +172,31 @@
 			<surface xml:id="c212_retro">
 				<graphic url="7694-212R.jpg" width="805.03125px" height="511.03125px" xml:id="c133_r" />
 				
-				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_num_ctlg"/>
 				<!--numero catalogatore-->
 				
-				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stampa_affrancatura"/>
 				<!--affrancatura-->
 				
-				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stampa_alto"/>
 				<!--stampa in alto-->
 				
-				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stampa_laterale"/>
 				<!--stampa laterale-->
 
-				<zone ulx="582" uly="141" lrx="688" lry="993" xml:id="c212_lb_01"/>
+				<zone ulx="582" uly="141" lrx="688" lry="993" xml:id="c212_stampa_centrale"/>
 				<!--stampa centrale-->
 				
-				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stampa_basso"/>
 				<!--stampa in basso-->
 				
-				<zone ulx="582" uly="141" lrx="688" lry="993" xml:id="c212_lb_01"/>
+				<zone ulx="582" uly="141" lrx="688" lry="993" xml:id="c212_coordinate1"/>
 				<!--luogo e data-->
 				
-				<zone ulx="582" uly="141" lrx="688" lry="993" xml:id="c212_lb_01"/>
+				<zone ulx="582" uly="141" lrx="688" lry="993" xml:id="c212_stampa_messaggio"/>
 				<!--messaggio-->
 				
-				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stamp_02"/>
+				<zone ulx="722" uly="156" lrx="1000" lry="360" xml:id="c212_stampa_firma"/>
 				<!--firma-->
 				
 			  
