@@ -1,0 +1,149 @@
+
+      body {
+        font-family: 'Montserrat', serif;
+        background-color: white;
+
+      }
+       
+    .imgfronte {
+      float:left;   
+      width:45%; 
+      height:90%;
+      padding-top: 5% ;
+      padding-left:5% ;
+    }
+      .descrizione {
+        float:right;   
+        width:45%;  
+        height:90%;
+        padding-top: 7% ;
+        text-align: left;
+		font-size: 1vw ;
+      }
+      .imgretro {
+        float:left;   
+        width:45%; 
+        height:90%;
+        text-align: center;
+        padding-top: 5% ;
+        padding-left:5% ;
+      }
+      .testo {
+        float:right;  
+        width:45%; 
+        height:90%;
+        padding-top: 15% ;
+        text-align: left;
+		font-size: 1vw ;
+      }
+      .conti {
+        width : 100% ;
+        height : 70% ;
+		padding-bottom: 3% ;
+		padding-top: 3% ;
+      }
+      img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block; 
+        border:0.1vw solid #000000;
+    }
+	
+	.contenitore {
+		padding-bottom: 3% ;
+	}
+	hr {
+		width:90%; 
+		height:2px;
+		border-width:0;
+		color:gray;
+    background-color:gray ;
+    clear: both;
+	}
+	
+	.retrino {
+		margin-left: 2% ;
+		margin-top: 10% ;
+	}
+	.frontino {
+	  margin-left: 30%;
+	}
+
+
+
+
+      #titolo {
+        padding-top: 5%;
+        text-align: center;
+      }
+
+      #intro {
+        text-align:center;
+        padding-top: 3%;
+      }
+
+      
+      #centrato {
+        float:left;
+        width:100%;
+        background: hsla(0, 0%, 96%, 0.616) ;
+        overflow:hidden;
+        position:fixed;
+     }
+     #centrato ul {
+        clear:left;
+        float:left;
+        list-style:none;
+        margin:0;
+        padding:0;
+        position:relative;
+        left:50%;
+        text-align:center;
+     }
+     #centrato ul li {
+        display:block;
+        float:left;
+        list-style:none;
+        margin:0;
+        padding:0;
+        position:relative;
+        right:50%;
+        font-size: 1.3vw;
+        font-weight: bold;
+     }
+     #centrato ul li a {
+        display:block;
+        margin:0 0 0 1px;
+        padding:3px 10px;
+        text-decoration:none;
+        line-height:1.3em;
+     }
+     #centrato ul li a:hover {
+      transform: scale(1.2);
+     }
+     #prog {
+     font-weight: 900; 
+     font-size: 2vw ;
+     }
+     #respi{
+      background-color: whitesmoke ; 
+      font-weight:900;
+      color:gray ; 
+      font-size: 1.5vw ;
+     }
+     #stud{
+      font-weight:900 ;
+      font-size: 1.5vw ;
+     }
+     .pintro{
+      font-size: 1.3vw ;
+     }
+     
+     .navli{
+      color:black;
+     }
+      
+      #titolo {
+        text-transform: uppercase;
+      }
+
