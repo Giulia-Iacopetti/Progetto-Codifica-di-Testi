@@ -1014,14 +1014,14 @@
 							
 							<ab rend="center" facs="#c212_r_stampa_1">Printed in <placeName>Paris</placeName>-L.Latina -</ab>
 							
-							<ab rend="bottom-left" facs="#c212_r_stampa_2">Salon de<placeName>Paris</placeName>
-								<note>(La scritta accanto sarebbe la traduzione in russo) - </note>
+							<ab rend="bottom-left" facs="#c212_r_stampa_2">Salon de<placeName>Paris </placeName><s xml:lang="ru"><term xml:lang="ar"> Парижский салон</term></s> 
+								
 							</ab>
 							
 							<ab rend="vertical-left" facs="#c212_r_stampa_3">
 								<num type="cardinal">1460.</num>							
 								<persName ref="#CD">Clovis Didier.</persName>
-								<title>L'attente. The waiting. Oczekiwanie. Oжидание.   </title>
+								<title>L'attente. The waiting. Oczekiwanie. <s xml:lang="ru"><term xml:lang="ar">Oжидание.</term></s></title>
 								<note>(Sotto il nome Clovis Didier vi è una scritta in russo, è la traduzione del nome in russo) </note>
 							</ab>
 						</div>
