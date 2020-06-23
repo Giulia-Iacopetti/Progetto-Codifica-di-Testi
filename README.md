@@ -1,6 +1,6 @@
 # Progetto-Codifica-di-Testi 
 Progetto di esame del corso Codifica di Testi, realizzato da: 
-Carla Barresi matricola (544028) e Giulia Iacopetti matricola(536687) 
+Carla Barresi matricola (544028) e Giulia Iacopetti matricola (536687) 
 
 Le cartoline analizzate sono le seguenti: 
 - 7694-132; 
